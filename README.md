@@ -1,4 +1,4 @@
-# 🚀 Keval Zinzuvadiya — Portfolio
+# 💻 Keval Zinzuvadiya — Portfolio
 
 A modern, visually stunning portfolio website showcasing my expertise in AI, MERN Stack, and software engineering.
 
@@ -17,7 +17,7 @@ I'm **Keval Zinzuvadiya**, an AI & Software Engineer currently pursuing my **MSc
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -60,7 +60,7 @@ portfolio/
 
 ---
 
-## 🚀 Getting Started
+## 💻 Getting Started
 
 Clone the repository and open in any browser:
 
@@ -79,7 +79,7 @@ python -m http.server 3000
 
 ---
 
-## 📸 Sections
+## 💻 Sections
 
 | Section | Description |
 |---------|-------------|
