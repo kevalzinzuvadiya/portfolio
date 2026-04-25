@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keval Zinzuvadiya — AI & Software Engineer</title>
+  <meta name="description" content="Portfolio of Keval Zinzuvadiya — MSc Computing student at De Montfort University. 2+ years experience in MERN Stack, Python, and AI solutions.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Particles Background -->
+  <canvas class="particles" id="particles"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">keval<span>.dev</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          Building the<br>
+          <span class="gradient">Future with AI</span><br>
+          & Code
+        </h1>
+        <p class="hero-desc">
+          I'm <strong>Keval Zinzuvadiya</strong>, an AI & Software Engineer pursuing MSc Computing at De Montfort University. I craft production-ready systems that bridge cutting-edge AI with robust software engineering.
+        </p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num" id="expCount">2+</span>
+            <span class="stat-label">Years Exp.</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="projCount">15+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="techCount">20+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="profile-card">
+          <img src="keval.jpeg" alt="Keval Zinzuvadiya - AI & Software Engineer" id="profileImg">
+          <div class="profile-card-overlay">
+            <h3>Keval Zinzuvadiya</h3>
+            <p>MSc Computing @ DMU</p>
+          </div>
+          <div class="floating-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            &nbsp;MERN Stack
+          </div>
+          <div class="floating-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            &nbsp;Python AI
+          </div>
+          <div class="floating-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            &nbsp;Full Stack
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-inner">
+      <span class="section-label reveal">// About Me</span>
+      <h2 class="section-title reveal reveal-delay-1">Passionate About Building<br>Intelligent Systems</h2>
+      <div class="about-grid">
+        <div class="about-text reveal reveal-delay-2">
+          <p>
+            I'm a dedicated software engineer and AI enthusiast currently pursuing my <strong>MSc in Computing at De Montfort University, UK</strong>. With over <strong>2 years of hands-on experience</strong>, I specialize in building scalable, production-grade applications.
+          </p>
+          <p>
+            My expertise spans the <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js) and <strong>Python-based AI/ML solutions</strong>. I believe in bridging the gap between cutting-edge artificial intelligence and robust software engineering to deliver systems that make a real impact.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring the latest in AI research, contributing to open-source projects, or mentoring fellow developers. I thrive in environments where innovation meets execution.
+          </p>
+        </div>
+        <div class="info-cards reveal reveal-delay-3">
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c6 3 12 0 12 0v-5"/></svg>
+            </div>
+            <h4>Education</h4>
+            <p>MSc Computing — De Montfort University, Leicester, UK</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 3h-8l-2 4h12z"/></svg>
+            </div>
+            <h4>Experience</h4>
+            <p>2+ years building production-grade MERN & AI systems</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h4>Location</h4>
+            <p>Leicester, United Kingdom</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" style="background: var(--bg-secondary);">
+    <div class="section-inner">
+      <span class="section-label reveal">// Tech Stack</span>
+      <h2 class="section-title reveal reveal-delay-1">Technologies I Work With</h2>
+      <p class="section-desc reveal reveal-delay-2">A curated set of technologies I use to build scalable applications and intelligent systems.</p>
+      <div class="skills-container">
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon frontend">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Redux</span>
+          </div>
+        </div>
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon backend">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1"/><circle cx="6" cy="18" r="1"/></svg>
+            </div>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">GraphQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Firebase</span>
+          </div>
+        </div>
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon ai">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.57-3.25 3.92L12 22"/><path d="M12 2a4 4 0 0 0-4 4c0 1.95 1.4 3.57 3.25 3.92"/><path d="M5 10c-1.7 1-3 3.27-3 5.18C2 17.85 3.9 20 7 20"/><path d="M19 10c1.7 1 3 3.27 3 5.18C22 17.85 20.1 20 17 20"/></svg>
+            </div>
+            <h3>AI / ML</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">OpenAI API</span>
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">Computer Vision</span>
+            <span class="skill-tag">Pandas</span>
+          </div>
+        </div>
+        <div class="skill-category reveal reveal-delay-4">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon tools">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Tools & DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="section-inner">
+      <span class="section-label reveal">// Experience</span>
+      <h2 class="section-title reveal reveal-delay-1">Professional Journey</h2>
+      <p class="section-desc reveal reveal-delay-2">A timeline of my growth as a software engineer and AI developer.</p>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">2024 — Present</span>
+          <div class="timeline-card">
+            <h3>MSc Computing Student</h3>
+            <span class="company">De Montfort University, Leicester, UK</span>
+            <p>Pursuing advanced studies in computing with focus on AI/ML, software architecture, and research methodologies. Working on dissertation involving intelligent systems.</p>
+            <div class="tech-used">
+              <span>Python</span><span>AI/ML</span><span>Research</span><span>Cloud Computing</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">2022 — 2024</span>
+          <div class="timeline-card">
+            <h3>Full Stack Developer</h3>
+            <span class="company">Freelance & Professional Projects</span>
+            <p>Built and deployed production-grade web applications using the MERN stack. Developed RESTful APIs, implemented authentication systems, and created responsive UIs. Integrated AI capabilities into existing applications.</p>
+            <div class="tech-used">
+              <span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span><span>Python</span><span>AWS</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">2021 — 2022</span>
+          <div class="timeline-card">
+            <h3>Junior Web Developer</h3>
+            <span class="company">Early Career & Learning</span>
+            <p>Started professional journey building web solutions. Learned modern JavaScript frameworks, database design, and API development. Built foundational skills in software engineering best practices.</p>
+            <div class="tech-used">
+              <span>JavaScript</span><span>HTML/CSS</span><span>React</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" style="background: var(--bg-secondary);">
+    <div class="section-inner">
+      <span class="section-label reveal">// Projects</span>
+      <h2 class="section-title reveal reveal-delay-1">Featured Work</h2>
+      <p class="section-desc reveal reveal-delay-2">A selection of projects showcasing my expertise in full-stack development and AI solutions.</p>
+      <div class="projects-grid">
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-img">
+            <div class="project-img-gradient g1">AI</div>
+            <span class="project-type-badge">AI / ML</span>
+          </div>
+          <div class="project-info">
+            <h3>AI-Powered Content Generator</h3>
+            <p>An intelligent content generation platform leveraging OpenAI's GPT models with custom fine-tuning for domain-specific content creation and SEO optimization.</p>
+            <div class="project-tech">
+              <span>Python</span><span>OpenAI</span><span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary">View Project</a>
+              <a href="#" class="project-link secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-img">
+            <div class="project-img-gradient g2">WEB</div>
+            <span class="project-type-badge">Full Stack</span>
+          </div>
+          <div class="project-info">
+            <h3>E-Commerce Platform</h3>
+            <p>A full-featured e-commerce application with real-time inventory, payment processing via Stripe, admin dashboard, and advanced search with filtering.</p>
+            <div class="project-tech">
+              <span>React</span><span>Node.js</span><span>MongoDB</span><span>Stripe</span><span>Redux</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary">View Project</a>
+              <a href="#" class="project-link secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-img">
+            <div class="project-img-gradient g3">ML</div>
+            <span class="project-type-badge">Machine Learning</span>
+          </div>
+          <div class="project-info">
+            <h3>Sentiment Analysis Dashboard</h3>
+            <p>Real-time sentiment analysis tool processing social media feeds using NLP. Features interactive visualizations and automated reporting.</p>
+            <div class="project-tech">
+              <span>Python</span><span>TensorFlow</span><span>Flask</span><span>React</span><span>D3.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary">View Project</a>
+              <a href="#" class="project-link secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal reveal-delay-4">
+          <div class="project-img">
+            <div class="project-img-gradient g4">API</div>
+            <span class="project-type-badge">Backend</span>
+          </div>
+          <div class="project-info">
+            <h3>Task Management API</h3>
+            <p>A scalable RESTful API with JWT authentication, role-based access control, real-time notifications via WebSockets, and comprehensive documentation.</p>
+            <div class="project-tech">
+              <span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Socket.io</span><span>Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary">View Project</a>
+              <a href="#" class="project-link secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-inner">
+      <span class="section-label reveal">// Contact</span>
+      <h2 class="section-title reveal reveal-delay-1">Let's Work Together</h2>
+      <p class="section-desc reveal reveal-delay-2">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal reveal-delay-2">
+          <a href="mailto:keval@example.com" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>keval@example.com</p>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/" target="_blank" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>Connect with me</p>
+            </div>
+          </a>
+          <a href="https://github.com/" target="_blank" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <p>View my repositories</p>
+            </div>
+          </a>
+          <a href="#" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Leicester, United Kingdom</p>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form reveal reveal-delay-3" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
+        <a href="mailto:keval@example.com">Email</a>
+      </div>
+      <p>© 2025 Keval Zinzuvadiya. Crafted with passion & code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
